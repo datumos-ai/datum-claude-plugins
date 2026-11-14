@@ -1,0 +1,47 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "datum-claude-plugins",
+  "owner": {
+    "name": "DatumOS",
+    "email": "support@datumos.ai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Datum, the agentic service operations platform: use Datum's agent tools and CLI from your own Claude Code, as yourself.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "datum",
+      "source": "./plugins/datum",
+      "description": "Datum from your own Claude Code: the agents of your spaces in windows beside the conversation, the space's agent tools over MCP (knowledge search, satellites) and the official `datum` CLI, signed in with your Microsoft account.",
+      "version": "1.4.0",
+      "category": "productivity",
+      "keywords": [
+        "datum",
+        "mcp",
+        "a2a",
+        "knowledge",
+        "satellites",
+        "operations",
+        "flows",
+        "data-products"
+      ]
+    },
+    {
+      "name": "datum-data-products",
+      "source": "./plugins/datum-data-products",
+      "description": "Groundwork for Datum data products on lake tables, for any data: namespace, owner space and credential, the catalog's columns and partitions, where the data is already described, and the pitfalls data lakes share. Install next to datum when you build data products on the lake.",
+      "version": "2.0.0",
+      "category": "data",
+      "keywords": [
+        "datum",
+        "data-products",
+        "data-lake",
+        "semantic-layer",
+        "athena",
+        "glue"
+      ]
+    }
+  ]
+}

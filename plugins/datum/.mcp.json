@@ -1,0 +1,6 @@
+{
+  "datum": {
+    "command": "datum",
+    "args": ["mcp", "serve"]
+  }
+}

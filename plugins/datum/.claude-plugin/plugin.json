@@ -1,0 +1,19 @@
+{
+  "name": "datum",
+  "version": "1.4.0",
+  "description": "Datum from your own Claude Code: the agents of your spaces in windows beside the conversation (one tab per space, running flows, answering a flow's questions), the space's agent tools over MCP (knowledge search, satellites), whole tasks delegated to the space's agent over A2A, building governed data products, and the official `datum` CLI, signed in with your Microsoft account — acting as you, capped at the operator role.",
+  "author": {
+    "name": "DatumOS",
+    "email": "support@datumos.ai"
+  },
+  "homepage": "https://github.com/datumos-ai/datum-claude-plugins",
+  "keywords": [
+    "datum",
+    "mcp",
+    "a2a",
+    "knowledge",
+    "cli"
+  ],
+  "types": "./types/index.d.ts",
+  "license": "Apache-2.0"
+}

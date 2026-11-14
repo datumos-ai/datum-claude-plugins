@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+# written by Claude Code when it loads a plugin's hooks module from a folder (types for the editor)
+plugins/*/.claude-plugin/types/
+plugins/*/tsconfig.json

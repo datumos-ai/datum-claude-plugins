@@ -1,0 +1,19 @@
+{
+  "name": "datum-data-products",
+  "version": "2.0.0",
+  "description": "Groundwork for Datum data products on lake tables, for any data: the namespace, the owner space in the data scope, the lake credential, the catalog's columns and partitions, where the data's meaning is already written down (knowledge bases, other products, Ossie/Cube/dbt models, pipelines, teams), and the pitfalls data lakes share. Companion of the data-products skill of the datum plugin.",
+  "author": {
+    "name": "DatumOS",
+    "email": "support@datumos.ai"
+  },
+  "homepage": "https://github.com/datumos-ai/datum-claude-plugins",
+  "keywords": [
+    "datum",
+    "data-products",
+    "data-lake",
+    "semantic-layer",
+    "athena",
+    "glue"
+  ],
+  "license": "Apache-2.0"
+}
